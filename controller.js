@@ -1,6 +1,6 @@
 function acessar() {
-    let loginEmail = document.getElementById("nome").value;
-    let loginSenha = document.getElementById("email").value;
+    let loginEmail = document.getElementById("Nome").value;
+    let loginSenha = document.getElementById("Senha").value;
 
     if(!loginEmail || !loginSenha) {
         alert("favor preencha os campos para acessar o site");
